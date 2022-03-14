@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jfx.HelloController">
+    <children>
+        <Label fx:id="welcomeText" />
+        <Button layoutX="260.0" layoutY="223.0" mnemonicParsing="false" onAction="#switchToPage" text="Button" />
+      <Label contentDisplay="CENTER" layoutX="161.0" layoutY="14.0" text="Put number of queens.">
+         <font>
+            <Font name="Dyuthi Regular" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameField" layoutX="205.0" layoutY="174.0" />
+    </children>
+</AnchorPane>
