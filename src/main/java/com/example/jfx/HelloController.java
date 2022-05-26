@@ -154,7 +154,7 @@ public class HelloController {
         setScreen(event);
         Runnable task = () -> {
             try {
-                solveNQUtil(0)solveNQUtil;
+                solveNQUtil(0);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
